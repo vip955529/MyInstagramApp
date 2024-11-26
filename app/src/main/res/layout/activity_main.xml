@@ -28,7 +28,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
                 android:padding="5dp"
-                android:tint="@color/textcolor"
+                app:tint="@color/textcolor"
                 app:srcCompat="@drawable/camera" />
 
             <TextView
@@ -49,7 +49,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="10dp"
                 android:padding="5dp"
-                android:tint="@color/textcolor"
+                app:tint="@color/textcolor"
                 app:srcCompat="@drawable/instatv" />
 
             <ImageView
@@ -60,7 +60,7 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:padding="5dp"
-                android:tint="@color/textcolor"
+                app:tint="@color/textcolor"
                 app:srcCompat="@drawable/send" />
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
